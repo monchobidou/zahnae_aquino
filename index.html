@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Zahnae's Sales Pipeline</title>
+<title>Zahnae Live</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="A cute ASCII-style portfolio for breaking into startup sales.">
+<meta name="description" content="Zahnae is a comedian and producer in NYC. Credits, services and booking.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Silkscreen:wght@400;700&display=swap">
@@ -219,8 +219,6 @@
     .project, .project:hover { transition: none; transform: none; }
   }
 </style>
-</head>
-<body>
 <style>
   /* ---------- sales additions ---------- */
   .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
@@ -268,85 +266,95 @@
     .deal .result { text-align: left; }
   }
 </style>
+<style>
+  /* ---------- comedy additions ---------- */
+  .plan.offer li::before { content: "* "; }
+  .screen { font-size: 0.85rem; }
+  .ticket { font-size: 0.95rem; color: var(--ink); }
+  .placeholder { color: var(--muted); font-style: italic; }
+</style>
 
+</head>
+<body>
 <div class="wrap">
 
   <nav aria-label="Main">
     <!-- EDIT: your name / handle -->
-    <a class="logo" href="#top">zahnae<span>.</span>crm</a>
+    <a class="logo" href="#top">zahnae<span>.</span>live</a>
     <ul>
       <li><a href="#numbers">numbers</a></li>
-      <li><a href="#wins">wins</a></li>
-      <li><a href="#outreach">outreach</a></li>
-      <li><a href="#plan">30-60-90</a></li>
-      <li><a href="#hello">book a call</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#credits">credits</a></li>
+      <li><a href="#book">services</a></li>
+      <li><a href="#hello">book me</a></li>
     </ul>
   </nav>
 
   <!-- ================= HERO ================= -->
   <header class="window hero" id="top">
-    <div class="titlebar"><span>~/new_lead.txt</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
+    <div class="titlebar"><span>~/now_playing.txt</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
     <div class="window-body">
-<pre class="cat" id="cat" aria-label="ASCII cat saying let's chat" title="pet me">  /\_/\   .-------------.
- ( o.o )  &lt; let's chat! |
-  &gt; ^ &lt;   '-------------'
- /|   |\
-(_|   |_)</pre>
+<pre class="cat" id="cat" aria-label="ASCII cat holding a microphone asking is this on" title="pet me">  /\_/\   .--------------.
+ ( o.o )  &lt; is this on?? |
+  &gt; ^ &lt;   '--------------'
+ /|   |\ o
+(_|   |_)|</pre>
       <div style="display:grid; gap:12px; min-width:0">
-        <!-- EDIT: your pitch, in one line -->
-        <h1>hi, i'm zahnae <span class="wave">(^_^)/</span></h1>
-        <p class="tagline">salesforce alum, product manager &amp; event producer who sold out 40+ shows. now i want to fill your pipeline<span class="cursor" aria-hidden="true">_</span></p>
+        <!-- EDIT: your one-liner -->
+        <h1>hi, i'm zahnae <span class="wave">(^o^)/</span></h1>
+        <p class="tagline">comedian &amp; producer. i make live shows that sell out and get talked about the next morning<span class="cursor" aria-hidden="true">_</span></p>
         <div class="status">
-          <span>looking for:</span><b>startup sales roles in nyc</b>
+          <span>based in:</span><b>nyc</b>
+          <span>booking:</span><b>shows, hosting, collabs</b>
         </div>
       </div>
     </div>
   </header>
 
-  <div class="divider" aria-hidden="true">$ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $</div>
+  <div class="divider" aria-hidden="true">ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha.</div>
 
   <!-- ================= NUMBERS ================= -->
   <section class="sec" id="numbers">
-    <div class="sec-head"><h2>by the numbers</h2><span class="kao">( •̀ ω •́ )✧</span><span class="path">SELECT * FROM results</span></div>
+    <div class="sec-head"><h2>by the numbers</h2><span class="kao">( •̀ ω •́ )✧</span><span class="path">cat box_office.csv</span></div>
     <div class="window">
-      <div class="titlebar"><span>dashboard.csv</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
-      <!-- EDIT: numbers come from the resume; update as you add new wins -->
+      <div class="titlebar"><span>box_office.csv</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
+      <!-- EDIT: update as you add new shows -->
       <div class="stats">
-        <div class="stat"><span class="num">10K+</span><span class="what">customer engagements using demos i built at Salesforce</span></div>
-        <div class="stat"><span class="num">40+</span><span class="what">sold-out live shows, averaging 110% ticket sales</span></div>
-        <div class="stat"><span class="num">+12%</span><span class="what">SMB segment penetration in 18 months</span></div>
-        <div class="stat"><span class="num">+150%</span><span class="what">social following in 3 months, 40% above benchmark engagement</span></div>
+        <div class="stat"><span class="num">40+</span><span class="what">sold-out shows produced</span></div>
+        <div class="stat"><span class="num">110%</span><span class="what">average ticket sales per show</span></div>
+        <div class="stat"><span class="num">+150%</span><span class="what">social following in 3 months</span></div>
+        <div class="stat"><span class="num">+40%</span><span class="what">engagement above industry benchmark</span></div>
       </div>
-      <div class="stats-note">sources: Salesforce Trailhead Academy (2021-2024), Fun &amp; Flirty LLC (2022-2025)</div>
+      <div class="stats-note">source: Fun &amp; Flirty live shows, Seattle (2022-2025)</div>
     </div>
   </section>
 
   <!-- ================= ABOUT ================= -->
   <section class="sec" id="about">
-    <div class="sec-head"><h2>why sales, why startups</h2><span class="kao">(=^･ω･^=)</span><span class="path">cat about.md</span></div>
+    <div class="sec-head"><h2>about the act</h2><span class="kao">(=^･ω･^=)</span><span class="path">cat about.md</span></div>
     <div class="window">
       <div class="titlebar"><span>about.md</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
       <div class="window-body about-grid">
         <div style="display:grid; gap:14px">
-          <!-- EDIT: your story -->
-          <p>I've spent my career helping people say yes. At Salesforce I built the demos and enablement programs behind 10K+ customer conversations. At Fun &amp; Flirty I sold out 40+ live shows by learning what Seattle actually wanted and marketing straight to it.</p>
-          <p>I'm also a builder: a CS degree, a VR software lead role, and product management. I can talk to an engineer and a buyer on the same day and understand the product I'm selling. Startups are where both of those matter most.</p>
+          <!-- EDIT: your story, in your voice -->
+          <p>I'm a comedian and producer who builds shows where the audience is part of the bit. With Fun &amp; Flirty I launched a hybrid comedy-dating show in Seattle, then booked it, marketed it, and sold out 40+ nights.</p>
+          <p>Before comedy I worked in tech, at Salesforce and as a VR software lead, and gave a TEDx talk. It shows up in the work: I test formats like products, read the room and the numbers, and keep whatever gets the biggest laugh.</p>
           <ul class="facts">
-            <li>B.S. Computer Science, minor in Psychology, Cal Poly SLO</li>
-            <li>Salesforce Certified Associate</li>
-            <li>TEDxSanLuisObispo speaker on VR's social impact</li>
+            <li>style: storytelling, one-liners &amp; dating stories</li>
+            <li>opened for: touring headliners, including Dulcé Sloan, Esther Povitsky &amp; Juno Birch</li>
+            <li>sets: 5 to 45 minutes</li>
           </ul>
         </div>
         <div style="display:grid; gap:10px; align-content:start">
-          <span class="label">toolkit (self-rated)</span>
-          <!-- EDIT: 10 cells, # = filled. Adjust to your honest self-rating. -->
+          <span class="label">bag of tricks (self-rated)</span>
+          <!-- EDIT: 10 cells, # = filled -->
           <div class="skills">
-            <div class="skill"><span>salesforce</span><span class="bar">[#########<i>.</i>]</span></div>
-            <div class="skill"><span>demos</span><span class="bar">[#########<i>.</i>]</span></div>
-            <div class="skill"><span>GTM/events</span><span class="bar">[########<i>..</i>]</span></div>
-            <div class="skill"><span>mkt research</span><span class="bar">[########<i>..</i>]</span></div>
-            <div class="skill"><span>tech depth</span><span class="bar">[########<i>..</i>]</span></div>
-            <div class="skill"><span>public talk</span><span class="bar">[#########<i>.</i>]</span></div>
+            <div class="skill"><span>crowd work</span><span class="bar">[#########<i>.</i>]</span></div>
+            <div class="skill"><span>hosting</span><span class="bar">[#########<i>.</i>]</span></div>
+            <div class="skill"><span>writing</span><span class="bar">[########<i>..</i>]</span></div>
+            <div class="skill"><span>producing</span><span class="bar">[#########<i>.</i>]</span></div>
+            <div class="skill"><span>booking</span><span class="bar">[########<i>..</i>]</span></div>
+            <div class="skill"><span>promo</span><span class="bar">[#########<i>.</i>]</span></div>
           </div>
         </div>
       </div>
@@ -355,173 +363,116 @@
 
   <div class="divider" aria-hidden="true">.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.</div>
 
-  <!-- ================= WINS ================= -->
-  <section class="sec" id="wins">
-    <div class="sec-head"><h2>closed-won</h2><span class="kao">٩(◕‿◕)۶</span><span class="path">pipeline --stage=won</span></div>
+  <!-- ================= CREDITS ================= -->
+  <section class="sec" id="credits">
+    <div class="sec-head"><h2>on the bill</h2><span class="kao">٩(◕‿◕)۶</span><span class="path">ls ./credits</span></div>
     <div class="window">
-      <div class="titlebar"><span>pipeline.log</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
+      <div class="titlebar"><span>credits.log</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
       <div class="window-body">
-        <!-- EDIT: each experience framed as a "deal": what you did + the result -->
+        <!-- EDIT: most recent first. Duplicate a .deal block per credit. -->
         <div class="deals">
           <div class="deal">
-            <div><b>Program Operations Analyst, Salesforce</b><small>Built interactive demos for sales enablement, tailored solutions for SMB customers, and raised Trailhead certification participation 15%.</small><span class="stage">2021 - 2024</span></div>
-            <div class="result">10K+ convos</div>
+            <div><b>Seattle VC Roast &amp; Comedy Night, producer &amp; performer</b><small>Produced and performed in a comedy roast of Seattle venture capital partners, presented by J.P. Morgan, Cooley and KBF Advisory. <a href="https://luma.com/ldqby8hs">event page -&gt;</a></small><span class="stage">seattle · oct 2026</span></div>
+            <div class="result">VC roast</div>
           </div>
           <div class="deal">
-            <div><b>Managing Consultant &amp; Events Director, Fun &amp; Flirty LLC</b><small>Launched a live comedy-dating show business. Used market research to plan weekly events and ran the campaigns that filled them.</small><span class="stage">2022 - 2025</span></div>
+            <div><b>Opening act for touring headliners</b><small>Warmed up rooms for national acts, including Dulcé Sloan, Michael Longfellow, Esther Povitsky and Juno Birch.</small><span class="stage">opener</span></div>
+            <div class="result">headliner bills</div>
+          </div>
+          <div class="deal">
+            <div><b>Fun &amp; Flirty, producer &amp; marketing director</b><small>Built and ran a hybrid comedy-dating show. Researched what audiences wanted, programmed weekly and monthly shows, and led the content, marketing and production teams.</small><span class="stage">seattle · 2022-2025</span></div>
             <div class="result">40+ sellouts</div>
           </div>
           <div class="deal">
-            <div><b>Head of Product Management, Activism Always</b><small>Pitched program impact to investors and represented the company on industry panels about inclusivity in tech.</small><span class="stage">2021 - 2022</span></div>
-            <div class="result">seed funded</div>
-          </div>
-          <div class="deal">
-            <div><b>AR/VR Software Lead, California Cybersecurity Institute</b><small>Led VR training simulations for a projected 100K users, then pitched the work on the TEDx stage.</small><span class="stage">2019 - 2021</span></div>
-            <div class="result">TEDx talk</div>
-          </div>
-          <div class="deal">
-            <div><b>Product Manager, GMI Digital</b><small>Writing requirements and coordinating design, dev and QA for web launches.</small><span class="stage">2025 - now</span></div>
-            <div class="result">in progress</div>
+            <div><b>TEDxSanLuisObispo, speaker</b><small>A talk on virtual reality's social impact. First time holding a big room's attention for a full set.</small><span class="stage">san luis obispo · 2020</span></div>
+            <div class="result">TEDx</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="divider" aria-hidden="true">$ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $</div>
+  <div class="divider" aria-hidden="true">ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha.</div>
 
-  <!-- ================= OUTREACH ================= -->
-  <section class="sec" id="outreach">
-    <div class="sec-head"><h2>sample outreach</h2><span class="kao">φ(..)</span><span class="path">cat drafts/cold_email.txt</span></div>
-    <div class="about-grid">
+  <!-- ================= SERVICES ================= -->
+  <section class="sec" id="book">
+    <div class="sec-head"><h2>put me on your show</h2><span class="kao">ε=ε=┌( &gt;_&lt;)┘</span><span class="path">cat services.txt</span></div>
+    <!-- EDIT: say what you'll actually take on -->
+    <div class="plan offer">
       <div class="window">
-        <div class="titlebar"><span>cold_email.txt</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
-        <!-- EDIT: write one to a company you'd actually love to work for -->
-        <div class="window-body email">
-          <div class="hdr">
-            <span>to:</span><span>Head of Sales, [startup you love]</span>
-            <span>subject:</span><span>a Salesforce alum who sells out rooms</span>
-          </div>
-          <div class="body">
-            <p>Hi [name],</p>
-            <p>Congrats on the Series A. I saw you're building out the sales team. I spent three years at Salesforce building demos used in 10K+ customer conversations, then ran a live events business that sold out 40+ shows.</p>
-            <p>I'd love 15 minutes to show you how I'd prospect into [segment]. Does Thursday work?</p>
-            <p>Zahnae</p>
-          </div>
-        </div>
-      </div>
-      <div class="why-box">
-        <span class="label">why it works</span>
-        <ul>
-          <li>researched trigger (new funding)</li>
-          <li>two proof points before the ask</li>
-          <li>one clear, small CTA</li>
-          <li>under 90 words</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <div class="divider" aria-hidden="true">.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:._.:*~*:.</div>
-
-  <!-- ================= 30-60-90 ================= -->
-  <section class="sec" id="plan">
-    <div class="sec-head"><h2>my first 90 days</h2><span class="kao">ε=ε=┌( &gt;_&lt;)┘</span><span class="path">cat plan.todo</span></div>
-    <!-- EDIT: tailor this to each company you apply to -->
-    <div class="plan">
-      <div class="window">
-        <div class="titlebar"><span>day_30</span><span class="btns" aria-hidden="true">[x]</span></div>
+        <div class="titlebar"><span>perform.txt</span><span class="btns" aria-hidden="true">[x]</span></div>
         <div class="window-body">
-          <span class="day">learn</span>
+          <span class="day">perform</span>
           <ul>
-            <li>shadow 20+ calls</li>
-            <li>master the ICP + personas</li>
-            <li>build my first 3 sequences</li>
+            <li>stand-up sets</li>
+            <li>sets from 5 to 45 min</li>
+            <li>opening for headliners</li>
           </ul>
-          <span class="goal">goal: ramped on product</span>
+          <span class="goal">for: bookers, showcases</span>
         </div>
       </div>
       <div class="window">
-        <div class="titlebar"><span>day_60</span><span class="btns" aria-hidden="true">[x]</span></div>
+        <div class="titlebar"><span>host.txt</span><span class="btns" aria-hidden="true">[x]</span></div>
         <div class="window-body">
-          <span class="day">execute</span>
+          <span class="day">host</span>
           <ul>
-            <li>60 dials + 40 emails / day</li>
-            <li>A/B test subject lines</li>
-            <li>weekly notes to product</li>
+            <li>warm up a cold room</li>
+            <li>crowd work between acts</li>
+            <li>keep the show on time</li>
           </ul>
-          <span class="goal">goal: 50% of meeting quota</span>
+          <span class="goal">for: shows, brand events</span>
         </div>
       </div>
       <div class="window">
-        <div class="titlebar"><span>day_90</span><span class="btns" aria-hidden="true">[x]</span></div>
+        <div class="titlebar"><span>produce.txt</span><span class="btns" aria-hidden="true">[x]</span></div>
         <div class="window-body">
-          <span class="day">own it</span>
+          <span class="day">produce</span>
           <ul>
-            <li>hit full meeting quota</li>
-            <li>document a playbook</li>
-            <li>open one new segment</li>
+            <li>show concept &amp; format</li>
+            <li>booking &amp; run of show</li>
+            <li>promo that sells tickets</li>
           </ul>
-          <span class="goal">goal: 100% quota, repeatable</span>
+          <span class="goal">for: venues, brands, VC &amp; corporate nights</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= KIND WORDS ================= -->
-  <section class="sec" id="words">
-    <div class="sec-head"><h2>kind words</h2><span class="kao">(｡♥‿♥｡)</span><span class="path">grep -r "zahnae" reviews/</span></div>
-    <!-- EDIT: real quotes from managers, professors, teammates (ask permission!) -->
-    <div class="quotes">
-      <figure class="window quote" style="margin:0">
-        <div class="titlebar"><span>review_01.txt</span><span class="btns" aria-hidden="true">[x]</span></div>
-        <div class="window-body"><p>[Ask a Salesforce manager or teammate for one or two sentences about your demos or programs.]</p><cite>-- [name], [title], Salesforce</cite></div>
-      </figure>
-      <figure class="window quote" style="margin:0">
-        <div class="titlebar"><span>review_02.txt</span><span class="btns" aria-hidden="true">[x]</span></div>
-        <div class="window-body"><p>[Ask a Fun &amp; Flirty partner, venue or performer what it was like to work with you.]</p><cite>-- [name], [role]</cite></div>
-      </figure>
-    </div>
-  </section>
-
-  <div class="divider" aria-hidden="true">$ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $ . $</div>
+  <div class="divider" aria-hidden="true">ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha. ha.</div>
 
   <!-- ================= CONTACT ================= -->
   <section class="sec" id="hello">
-    <div class="sec-head"><h2>book a call</h2><span class="kao">(っ◔◡◔)っ ♡</span><span class="path">./schedule.sh</span></div>
+    <div class="sec-head"><h2>book me</h2><span class="kao">(っ◔◡◔)っ ♡</span><span class="path">./booking.sh</span></div>
     <div class="window contact">
-      <div class="titlebar"><span>next_steps.sh</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
+      <div class="titlebar"><span>booking.sh</span><span class="btns" aria-hidden="true">[-][o][x]</span></div>
       <div class="window-body">
         <div style="display:grid; gap:14px">
-          <p>Hiring for sales at a startup? I'll make this the easiest intro call on your calendar.</p>
+          <p>Booking a show, festival or brand event? Send me the date, the room and the vibe.</p>
           <div class="mail-row">
-            <!-- EDIT: your email -->
+            <!-- EDIT: your booking email -->
             <span class="mail" id="mail">zahahanae@gmail.com</span>
             <button type="button" id="copy">copy</button>
           </div>
-          <!-- EDIT: your links (calendly, resume and video are still placeholders) -->
+          <!-- EDIT: your links -->
           <div class="links">
-            <a href="https://calendly.com/">grab 15 min</a>
+            <a href="https://instagram.com/zahahanae">instagram @zahahanae</a>
             <a href="https://www.linkedin.com/in/zahnaeaquino/">linkedin</a>
-            <a href="#">resume.pdf</a>
-            <a href="#">intro video (60s)</a>
           </div>
         </div>
-<pre class="mailbox" aria-hidden="true">  .-------.
-  | [o o] |
-  |  ___  |
-  | |123| |
-  | |456| |
-  '-------'</pre>
+<pre class="mailbox ticket" aria-hidden="true">.----------------.
+| ADMIT ONE   *  |
+|  zahnae live   |
+|  row A  seat 1 |
+'----------------'</pre>
       </div>
     </div>
   </section>
 
   <footer>
 <pre aria-hidden="true">  /\_/\      /\_/\      /\_/\
- ( ^.^ )    ( $.$ )    ( ^.^ )
+ ( ^o^ )    ( &gt;v&lt; )    ( ^o^ )
   &gt; ^ &lt;      &gt; ^ &lt;      &gt; ^ &lt;</pre>
-    <span>always be closing (kindly) &middot; 2026</span>
+    <span>thank you, you've been a great crowd &middot; 2026</span>
   </footer>
 </div>
 
