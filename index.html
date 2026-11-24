@@ -272,6 +272,12 @@
   .screen { font-size: 0.85rem; }
   .ticket { font-size: 0.95rem; color: var(--ink); }
   .placeholder { color: var(--muted); font-style: italic; }
+  .social { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-size: 0.9rem; }
+  .social span { color: var(--muted); font-size: 0.85rem; }
+  nav ul a.nav-cta { background: var(--butter); color: #2A2833; border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); padding: 0 8px; font-weight: 500; }
+  nav ul a.nav-cta::before, nav ul a.nav-cta::after { color: #2A2833; }
+  nav ul a.nav-cta:hover { background: var(--pink-soft); color: var(--ink); }
+  nav ul a.nav-cta:hover::before, nav ul a.nav-cta:hover::after { color: var(--ink); }
 </style>
 
 </head>
@@ -286,7 +292,7 @@
       <li><a href="#about">about</a></li>
       <li><a href="#credits">credits</a></li>
       <li><a href="#book">services</a></li>
-      <li><a href="#hello">book me</a></li>
+      <li><a class="nav-cta" href="#hello">book me</a></li>
     </ul>
   </nav>
 
@@ -305,7 +311,13 @@
         <p class="tagline">comedian &amp; producer. i make live shows that sell out and get talked about the next morning<span class="cursor" aria-hidden="true">_</span></p>
         <div class="status">
           <span>based in:</span><b>nyc</b>
-          <span>booking:</span><b>shows, hosting, collabs</b>
+        </div>
+        <!-- EDIT: your socials -->
+        <div class="social">
+          <span>find me:</span>
+          <a href="https://instagram.com/zahahanae">instagram @zahahanae</a>
+          <a href="https://instagram.com/wearefunandflirty">fun &amp; flirty @wearefunandflirty</a>
+          <a href="https://www.linkedin.com/in/zahnaeaquino/">linkedin</a>
         </div>
       </div>
     </div>
@@ -380,7 +392,7 @@
             <div class="result">headliner bills</div>
           </div>
           <div class="deal">
-            <div><b>Fun &amp; Flirty, producer &amp; marketing director</b><small>Built and ran a hybrid comedy-dating show. Researched what audiences wanted, programmed weekly and monthly shows, and led the content, marketing and production teams.</small><span class="stage">seattle · 2022-2025</span></div>
+            <div><b>Fun &amp; Flirty, producer &amp; marketing director</b><small>Built and ran a hybrid comedy-dating show. Researched what audiences wanted, programmed weekly and monthly shows, and led the content, marketing and production teams. <a href="https://instagram.com/wearefunandflirty">@wearefunandflirty -&gt;</a></small><span class="stage">seattle · 2022-2025</span></div>
             <div class="result">40+ sellouts</div>
           </div>
           <div class="deal">
@@ -456,6 +468,7 @@
           <!-- EDIT: your links -->
           <div class="links">
             <a href="https://instagram.com/zahahanae">instagram @zahahanae</a>
+            <a href="https://instagram.com/wearefunandflirty">fun &amp; flirty</a>
             <a href="https://www.linkedin.com/in/zahnaeaquino/">linkedin</a>
           </div>
         </div>
